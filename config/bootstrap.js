@@ -27,9 +27,4 @@ module.exports.bootstrap = async function() {
   //   // etc.
   // ]);
   // ```
-  for (let index = 0; index < 10; index++) {
-     await sails.models.losers.create(
-        {surname:faker.name.firstName(),othername:faker.name.lastName(), samaritan: 681248724,type:faker.vehicle.color()}
-      )
-  }
 };
