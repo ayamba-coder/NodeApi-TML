@@ -20,7 +20,9 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': { view: 'pages/homepage' },
-
+  '/losers/get':'LoserController.get',
+  '/documents/get':'DocumentController.get',
+  '/losers/get/:name':'LoserController.getLosers'
 
 
   /***************************************************************************

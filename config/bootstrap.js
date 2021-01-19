@@ -1,4 +1,5 @@
 let faker = require('faker');
+const { default: sailsLinker } = require('../tasks/config/sails-linker');
 /**
  * Seed Function
  * (sails.config.bootstrap)
@@ -27,4 +28,6 @@ module.exports.bootstrap = async function() {
   //   // etc.
   // ]);
   // ```
+ // var usersWithPonies = await sails.models.loser.find({ surname:'Mike' }).populate('doctypes');
+
 };

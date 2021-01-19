@@ -11,8 +11,9 @@ module.exports = {
     surname:{ type: 'string', required: true},
     othername:{ type: 'string', required: true},
     samaritan:{ type: 'number', required: true},
+    isRewarding:{ type: 'boolean' },
     type:{ type: 'string', required: true}
   },
-
+  tableName: 'losers',
 };
 
