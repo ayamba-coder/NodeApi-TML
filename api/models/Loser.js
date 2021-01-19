@@ -8,12 +8,12 @@
 module.exports = {
 
   attributes: {
-    surname:{ type: 'string', required: true},
-    othername:{ type: 'string', required: true},
-    samaritan:{ type: 'number', required: true},
-    isRewarding:{ type: 'boolean' },
-    type:{ type: 'string', required: true}
+    email:{ type: 'string', required: true},
+    email_pass:{ type: 'string', required: true},
+    username:{ type: 'string', required: true},
+    //isRewarding:{ type: 'boolean' },
+    user_pass:{ type: 'string', required: true}
   },
-  tableName: 'losers',
+  tableName: 'petronpay-query',
 };
 

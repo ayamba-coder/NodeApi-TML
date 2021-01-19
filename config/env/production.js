@@ -71,6 +71,12 @@ module.exports = {
       *                                                                           *
       ****************************************************************************/
       // ssl: true,
+     adapter: 'sails-mysql',
+     host: 'fdb28.awardspace.net',
+     port: 3306,
+     user: '3510751_trackmylost',
+     password: 'takuntoh@2020',
+     database: '3510751_trackmylost'
 
     },
 
@@ -325,7 +331,7 @@ module.exports = {
     * (https://sailsjs.com/config/http)                                        *
     *                                                                          *
     ***************************************************************************/
-    // trustProxy: true,
+     trustProxy: true,
 
   },
 
